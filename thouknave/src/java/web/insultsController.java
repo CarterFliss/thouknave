@@ -36,6 +36,6 @@ public class insultsController {
         insults a = new insults();
         dao.insultGen();
         a.toString();
-        return new ModelAndView("thouknave","thouknave",new insults());
+        return new ModelAndView("redirect:/thouknave/");
     }
 }
