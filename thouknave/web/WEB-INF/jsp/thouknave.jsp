@@ -13,10 +13,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href='http://fonts.googleapis.com/css?family=Jim+Nightshade|IM+Fell+DW+Pica+SC' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="static/css/normalize.css">
-    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <h1>Thou Knave!: My Shakespearean Insult Generator</h1>
+        <div id="insult">
+            <a href="<c:url value="/thouknave/" />"><button class="w3-btn w3-round w3-blue">New Insult</button></a>
+        </div>
     </body>
 </html>
