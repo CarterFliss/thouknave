@@ -4,5 +4,5 @@
     "http://www.w3.org/TR/html4/loose.dtd">
 
 <html>
-    <c:redirect url="/thouknave/"></c:redirect>
+    <c:redirect url="/thouknave"></c:redirect>
 </html>

@@ -31,11 +31,11 @@ public class insultsController {
     
     private static final Logger logger = Logger.getLogger(insultsController.class.getName());
     
-    @RequestMapping(value= "/thouknave/",method = RequestMethod.GET)
+    @RequestMapping(value= "/thouknave",method = RequestMethod.GET)
     public ModelAndView generateInsult (HttpServletRequest request){
         insults a = new insults();
         dao.insultGen();
         a.toString();
-        return new ModelAndView("redirect:/thouknave/");
+        return new ModelAndView("redirect:/thouknave");
     }
 }
