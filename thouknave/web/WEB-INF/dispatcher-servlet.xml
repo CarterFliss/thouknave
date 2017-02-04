@@ -38,7 +38,7 @@
     <property name="dataSource" ref="ds"></property>  
   </bean>  
   
-  <bean id="artist-dao" class="repository.insultsDAO">  
+  <bean id="insultsDAO" class="repository.insultsDAO">  
     <property name="template" ref="jt"></property>  
   </bean>
 </beans>
